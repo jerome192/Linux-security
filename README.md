@@ -2,9 +2,13 @@
 
 ## Overview
 
-This project is a practical Linux security case study focused on building, securing, investigating, and improving a Linux environment.
+This project is a practical Linux security case study focused on building, assessing, securing, and validating an enterprise-style Linux environment.
 
-The purpose of this lab is to apply Linux administration and security concepts in a realistic enterprise-style environment while developing skills required for cybersecurity and penetration testing.
+The purpose is to apply Linux administration and security concepts in a controlled environment while developing practical skills relevant to cybersecurity and penetration testing.
+
+Rather than functioning as a collection of notes or isolated exercises, the project follows a complete security assessment lifecycle:
+
+**Build → Baseline → Assess → Find → Remediate → Validate → Document**
 
 ---
 
@@ -21,15 +25,7 @@ The server contains resources belonging to different departments:
 
 Each department requires controlled access based on business responsibilities.
 
-The environment is designed to practice:
-
-- User and group management
-- File ownership
-- Linux permissions
-- Access control
-- System enumeration
-- Security assessment
-- Hardening
+The environment is designed to provide a realistic setting for investigating Linux configuration, access controls, services, permissions, and other security weaknesses.
 
 ---
 
@@ -41,8 +37,8 @@ This project aims to develop practical skills in:
 
 - Linux filesystem structure
 - Users and groups
-- File permissions
-- Ownership management
+- File ownership
+- Linux permissions
 - Services and processes
 - System configuration
 
@@ -51,9 +47,24 @@ This project aims to develop practical skills in:
 - Least privilege
 - Role-based access control
 - Security baseline creation
-- Host enumeration
+- System enumeration
+- Security assessment
 - Misconfiguration analysis
-- Hardening techniques
+- Vulnerability identification
+- Remediation and hardening
+- Security validation
+
+### Security Assessment
+
+- Reconnaissance
+- Enumeration
+- Service analysis
+- Configuration analysis
+- Evidence collection
+- Security findings
+- Root-cause analysis
+- Remediation
+- Validation testing
 
 ### Automation
 
@@ -69,9 +80,14 @@ Future development includes:
 
 ### Target System
 
-- Operating System: Ubuntu Linux
+- Operating System: Ubuntu 24.04.5 LTS
 - Environment Type: Isolated Virtual Lab
 - Purpose: Enterprise Linux security simulation
+
+### Assessment System
+
+- Kali Linux
+- Purpose: Security assessment and penetration testing
 
 ### Department Structure
 
@@ -84,44 +100,121 @@ Future development includes:
 
 ---
 
-## Project Workflow
+## Security Case Study Workflow
 
-The project follows a practical security workflow:
+The project follows a continuous security assessment lifecycle.
 
-1. Design and build the Linux environment
-2. Configure users, groups, and permissions
-3. Capture baseline system information
-4. Perform security assessment and enumeration
-5. Identify weaknesses and misconfigurations
-6. Apply remediation and hardening
-7. Document findings and improvements
+### Phase 1: Environment Construction
+
+Build and configure the enterprise-style Linux environment, including users, groups, departmental resources, ownership, permissions, and required services.
+
+### Phase 2: Baseline Evidence
+
+Capture and document the initial state of the environment using actual system output and screenshots.
+
+The baseline provides the reference state for later assessment, remediation, and validation.
+
+### Phase 3: Black-Box Security Assessment
+
+Approach the Linux server from Kali Linux as a security tester.
+
+Perform reconnaissance, enumeration, and analysis to identify potential security weaknesses.
+
+### Phase 4: Findings Analysis
+
+Document discovered weaknesses using supporting evidence.
+
+Each finding will explain:
+
+- What was discovered
+- How it was discovered
+- The affected component
+- Why it represents a security issue
+- Potential impact
+- Underlying cause
+
+### Phase 5: Remediation and Hardening
+
+Apply appropriate changes to address identified weaknesses.
+
+The original condition, remediation action, and reason for the change will be documented.
+
+### Phase 6: Security Validation
+
+Re-test the affected areas after remediation to determine whether the original weakness has been addressed.
+
+Before-and-after evidence will be captured where appropriate.
+
+### Phase 7: Final Documentation
+
+Consolidate the assessment, findings, remediation actions, and validation results into a complete security case study.
+
+---
+
+## Evidence-Based Documentation
+
+The project emphasizes actual evidence rather than unsupported claims.
+
+Evidence may include:
+
+- Terminal output
+- Screenshots
+- Configuration evidence
+- Enumeration results
+- Finding evidence
+- Remediation evidence
+- Before-and-after comparisons
+
+Each piece of evidence is accompanied by an explanation of what it demonstrates and why it is relevant to the security assessment.
 
 ---
 
 ## Current Progress
 
-Completed:
+### Completed
 
 - Ubuntu Linux target deployment
+- Kali Linux assessment environment
 - Enterprise-style department structure
 - User and group configuration
 - Access control implementation
-- File permission management
-- Baseline information collection
+- File ownership and permission configuration
+- Initial system baseline collection
+- Environment documentation
 
-Upcoming:
+### Current Phase
 
-- Linux security assessment
-- Service enumeration
-- Security testing
-- Hardening improvements
-- Bash and Python automation
+- Baseline evidence documentation
+
+### Upcoming
+
+- Black-box security assessment
+- Reconnaissance and enumeration
+- Security findings
+- Remediation and hardening
+- Validation testing
+- Final security case study
+
+---
+
+## Security Principles
+
+The project applies practical security principles including:
+
+- Least privilege
+- Role-based access control
+- Departmental separation
+- Attack surface analysis
+- Evidence-based assessment
+- Secure configuration
+- Remediation
+- Validation
 
 ---
 
 ## Future Expansion
 
-This lab will expand into:
+After completing the current Linux security case study, additional practical scenarios may be developed around:
 
 - Linux privilege escalation
 - Network penetration testing
@@ -129,3 +222,20 @@ This lab will expand into:
 - Active Directory security
 - Host-based penetration testing
 - Security automation
+
+---
+
+## Project Philosophy
+
+The objective is not simply to configure a Linux system.
+
+The project demonstrates the reasoning, evidence, methodology, and practical security decisions involved in assessing and improving a Linux environment.
+
+**Build → Baseline → Assess → Find → Remediate → Validate → Document**
+
+---
+
+## Author
+
+**Jerome Danquah Amoako**  
+Information Technology Background | MBA Candidate | Aspiring Penetration Tester
