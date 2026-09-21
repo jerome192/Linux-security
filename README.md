@@ -1,2 +1,2 @@
 # Linux-security
-A practical Linux security lab to demonstrate the ability to understand, investigate, secure, enumerate and automate Linux systems.
+A practical Linux security lab demonstrating system administration, security assessment, hardening, enumeration, and automation of Linux environments.
