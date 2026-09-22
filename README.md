@@ -181,14 +181,14 @@ Each piece of evidence is accompanied by an explanation of what it demonstrates 
 - File ownership and permission configuration
 - Initial system baseline collection
 - Environment documentation
+- Baseline evidence documentation
 
 ### Current Phase
 
-- Baseline evidence documentation
+- Black-box security assessment
 
 ### Upcoming
 
-- Black-box security assessment
 - Reconnaissance and enumeration
 - Security findings
 - Remediation and hardening
