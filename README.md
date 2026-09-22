@@ -6,7 +6,7 @@ This project is a practical Linux security case study focused on building, asses
 
 The purpose is to apply Linux administration and security concepts in a controlled environment while developing practical skills relevant to cybersecurity and penetration testing.
 
-Rather than functioning as a collection of notes or isolated exercises, the project follows a complete security assessment lifecycle:
+The project follows a complete security assessment lifecycle:
 
 **Build → Baseline → Assess → Find → Remediate → Validate → Document**
 
@@ -217,9 +217,9 @@ The project applies practical security principles including:
 After completing the current Linux security case study, additional practical scenarios may be developed around:
 
 - Linux privilege escalation
-- Network penetration testing
 - Web application security
 - Active Directory security
+- Network penetration testing
 - Host-based penetration testing
 - Security automation
 
@@ -238,4 +238,4 @@ The project demonstrates the reasoning, evidence, methodology, and practical sec
 ## Author
 
 **Jerome Danquah Amoako**  
-Information Technology Background | MBA Candidate | Aspiring Penetration Tester
+Aspiring Penetration Tester | BSc Information Technology | MBA Candidate
