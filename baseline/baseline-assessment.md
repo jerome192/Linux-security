@@ -288,3 +288,33 @@ The resource structure is:
 The configured permissions establish departmental boundaries through Linux ownership and group membership.
 
 These boundaries will later be tested from the perspective of an unauthorized user.
+
+---
+
+## 11. Baseline Summary
+
+The baseline establishes the following initial state:
+
+| Category | Baseline State |
+|---|---|
+| Operating System | Ubuntu 24.04.5 LTS |
+| Hostname | `linux-taarget` |
+| Primary Assessment Address | `192.168.100.101` |
+| Administrative Account | `labadmin` |
+| Organizational Users | 5 |
+| Department Groups | IT, Finance, HR, Developers |
+| SSH | Enabled on TCP 22 |
+| Company Resource Areas | Finance, HR, Projects, Backups |
+| Access Control | Group-based departmental permissions |
+
+---
+
+## 12. Transition to Security Assessment
+
+The baseline phase establishes the known state of the target before security testing.
+
+The next phase changes the perspective from system administrator to security tester.
+
+Kali Linux will be used to approach the Ubuntu server as a black-box target. Reconnaissance and enumeration will be performed to identify exposed services, accessible resources, privilege boundaries, and potential security weaknesses.
+
+The baseline will be used only as a reference for comparison during remediation and validation.
