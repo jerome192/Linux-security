@@ -174,8 +174,7 @@ The baseline shows:
 - Local DNS resolver services on loopback
 - DHCP-related UDP activity on the configured interfaces
 
-The primary externally reachable service identified at baseline is SSH:
-
+The primary network service identified at baseline is SSH, listening on all IPv4 and IPv6 interfaces:
     TCP 0.0.0.0:22
     TCP [::]:22
 
@@ -301,7 +300,7 @@ The baseline establishes the following initial state:
 | Hostname | `linux-taarget` |
 | Primary Assessment Address | `192.168.100.101` |
 | Administrative Account | `labadmin` |
-| Organizational Users | 5 |
+| Organizational Users | 4 |
 | Department Groups | IT, Finance, HR, Developers |
 | SSH | Enabled on TCP 22 |
 | Company Resource Areas | Finance, HR, Projects, Backups |
