@@ -234,9 +234,11 @@ The evidence collected during host profiling established the following distincti
 
 ### 5.2 Target Selection
 
-The project assessment is intended to examine the security of an Ubuntu Linux server.
+The project assessment focuses on the security of an Ubuntu Linux server.
 
-Based on the collected service identification evidence and the intended asset description, `192.168.100.101` was selected as the likely assessment target.
+The SSH service identification on `192.168.100.101` provides evidence consistent with this assessment objective.
+
+Based on this evidence, `192.168.100.101` was selected as the provisional assessment target.
 
 This selection was made using independently collected reconnaissance evidence rather than relying on the target IP address recorded in the system baseline.
 
@@ -258,7 +260,7 @@ The following limitations apply to the results:
 
 4. **Vulnerability confirmation:** No security vulnerability was confirmed during this reconnaissance activity.
 
-5. **Access verification:** No successful unauthorized access or exploitation was demonstrated during this activity.
+5. **Access and exploitation testing:** No authentication testing, exploitation, or access-control verification was performed during this reconnaissance activity.
 
 6. **Assessment depth:** The current investigation focused on host discovery and TCP service identification. Other areas of system security have not yet been assessed.
 
@@ -282,7 +284,7 @@ The results provide an initial understanding of the network environment and esta
 
 The next activity will investigate the SSH service identified on `192.168.100.101`.
 
-The investigation will examine the service's configuration and security characteristics from the Kali assessment machine.
+The investigation will examine its remotely observable characteristics and identify information relevant to evaluating the service's security posture.
 
 Any potential security weaknesses must be supported by collected evidence before they are classified as findings.
 
