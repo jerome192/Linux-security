@@ -1,4 +1,4 @@
-# Network Reconnaissance and Host Identification
+# Initial Reconnaissance: Host Discovery, Host Profiling, and Target Identification
 
 ## 1. Introduction
 
@@ -286,6 +286,3 @@ The investigation will examine the service's configuration and security characte
 
 Any potential security weaknesses must be supported by collected evidence before they are classified as findings.
 
-The assessment will continue using the following working process:
-
-**Investigate → Evaluate → Preserve Evidence → Document on GitHub → Continue.**
