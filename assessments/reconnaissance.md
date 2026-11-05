@@ -39,7 +39,7 @@ The initial investigation focuses on host availability without performing TCP po
 
 The Kali assessment machine was connected to the same local network segment as the systems within the laboratory.
 
-ARP-based host discovery was selected because it is suitable for identifying active systems on a directly connected local network.
+ARP-based host discovery was selected because it is suitable for identifying active systems on a directly connected local network. ARP discovery identifies responding devices on the local network. It does not establish that those devices are necessarily the intended assessment targets.
 
 The following Nmap command was executed:
 
@@ -187,7 +187,7 @@ The scans returned the following identification information:
 
 Nmap suggested Windows Server 2022 as an operating-system match with a 96% confidence estimate. Other Windows versions were also returned as alternative matches.
 
-The operating-system fingerprint included limitations affecting the reliability of the identification.
+However, Nmap reported that it could not obtain the required combination of open and closed ports for reliable OS fingerprinting. Consequently, the operating-system identification should be treated as an estimate rather than a confirmed result.
 
 **Evaluation**
 
