@@ -112,7 +112,7 @@ The scanner reported:
 
 **Figure 2 — Metasploit SSH version scanner and service fingerprinting results**
 
-![Metasploit SSH version scan](evidence/ssh-metasploit-version(1).png)
+![Metasploit SSH version scan](evidence/ssh-metasploit-version.png)
 
 ### Analysis
 
@@ -460,7 +460,7 @@ The initial connection and client-side context are visible in the verbose SSH sc
 
 **Figure 6 — Verbose SSH connection initiation and client-side information**
 
-![Verbose SSH connection](evidence/ssh-verbose-negotiations(1).png)
+![Verbose SSH connection](evidence/ssh-verbose-negotiations.png)
 
 ### 7.1 Observed Negotiation Results
 
