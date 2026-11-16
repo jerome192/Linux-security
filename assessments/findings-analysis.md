@@ -15,7 +15,7 @@ The analysis distinguishes between:
 
 Only evidence-supported weaknesses will be classified as confirmed security findings.
 
-This document currently covers the SSH service assessment. The analysis of other exposed services will be added as the assessment progresses.
+This document covers the SSH service assessment, which addresses the only open TCP service identified on the selected target during the documented reconnaissance.
 
 ## 2. SSH Service Analysis
 
@@ -269,4 +269,8 @@ Although some advertised options warrant consideration from a hardening perspect
 
 The SSH findings analysis is therefore provisionally closed with no confirmed reportable vulnerability.
 
-The overall target assessment remains open. Other exposed services identified during reconnaissance must still be considered before the security assessment can be concluded.
+The overall target assessment remains open. The reconnaissance identified TCP port 22 (SSH) as the only open TCP service on the selected target. The identified TCP service has undergone security assessment and findings analysis.
+
+No confirmed SSH vulnerability was established from the evidence collected.
+
+The TCP service assessment is therefore complete within the scope of the reconnaissance performed. This conclusion does not establish that the target is free from vulnerabilities outside the assessed scope.
